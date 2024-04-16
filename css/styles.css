@@ -8,6 +8,7 @@ html{
 }
 
 body {
+  background-color: gray;
   font-family:"Marcellus", "Courier New";
 }
 
@@ -18,9 +19,17 @@ header, main , footer {
   min-width: 400px;
 }
 
+header{
+  background-color: white;
+}
 main {
   min-height: 200px;
   overflow: auto;
+  background-color: white;
+}
+
+footer{
+  background-color: white;
 }
 main>div{
   border: 2px blue solid;
