@@ -1,13 +1,61 @@
-.documentales {
+.documentalesxx {
   max-width: 100%;
-  margin: 0 auto;
-  background-color:yellow;
   overflow: hidden;
   float: left;
 }
-.documental{
-  width: 300px;
-  margin: 10px 10px 20px 10px;
-  background-color:aquamarine;
+.documentalxx {
+  width: 305px;
+  margin: 10px 10px 10px 10px;
+
   float: left;
+}
+
+.grid-container {
+  display: grid;
+}
+
+/* Small devices (600px and down) */
+@media only screen and (max-width: 600px) {
+  .documentales {
+    background-color: red;
+  }
+  .grid-container {
+    grid-template-columns: auto;
+  }
+}
+/* Small devices (600px and up) */
+@media only screen and (min-width: 600px) {
+  .documentales {
+    background-color: bisque;
+  }
+  .grid-container {
+    grid-template-columns: auto auto;
+  }
+}
+/* Medium devices (768px and up) */
+@media only screen and (min-width: 768px) {
+  .documentales {
+    background-color: greenyellow;
+  }
+  .grid-container {
+    grid-template-columns: auto auto auto;
+  }
+}
+/* Large devices (992px and up) */
+@media only screen and (min-width: 992px) {
+  .documentales {
+    background-color: blueviolet;
+  }
+  .grid-container {
+    grid-template-columns: auto auto auto auto;
+  }
+}
+/* Extra large devices (1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .documentales {
+    background-color: aqua;
+  }
+  .grid-container {
+    grid-template-columns: auto auto auto auto;
+  }
 }
