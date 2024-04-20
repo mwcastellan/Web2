@@ -1,63 +1,145 @@
 * {
   box-sizing: border-box;
-}
-
-html{
-    font-size: 1rem;
-    height: 100%
+  margin: 0 auto;
+  border: 1px blue solid;
 }
 
 body {
-  background-color: gray;
-  font-family:"Marcellus", "Courier New";
-}
-
-header, main , footer {
-  border: 3px red solid;
-  min-height: 50px;
+  background-color: white;
+  font-family: "Marcellus", "Courier New";
+  font-size: 1rem;
   margin: 0.5rem;
+}
+/* HEADER */
+header {
+  background-color: blueviolet;
+  min-height: 50px;
   min-width: 400px;
+  margin: 0.5rem;
 }
-
-header{
-  background-color: white;
-}
-main {
-  min-height: 200px;
-  overflow: auto;
-  background-color: white;
-}
-
-footer{
-  background-color: white;
-}
-main>div{
-  border: 2px blue solid;
-  min-height: 180px;
-  height: auto;
-  float: left;
-  width: 65%;
-}
-main>aside{
-  border: 2px blue solid;
-  min-height: 180px;
-  min-width: 35%;
-  float: left;
+.header-logo {
   width: auto;
+  display: inline-block;
+  margin: 0.5rem;
+}
+.header-menubar {
+  left: auto;
+  position: relative;
+  top: auto;
+  width: auto;
+  display: inline-block;
+  margin: 0.5rem;
+  font-size: 1rem;
+}
+.header-menubar ul {
+  list-style: none;
+}
+.header-menubar li {
+  float: left;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0.5rem 0;
+}
+.header-menubar a {
+  text-decoration: none;
+  color: black;
+}
+.header-menubar a:hover {
+  color: red;
+}
+.a-efecto {
+  display: inline-block;
+  background: white;
+  color: black;
+  padding: 8px 16px;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+}
+.a-efecto:hover {
+  background: #fff;
+  color: darkred;
+  padding: 32px;
+  border: 1px solid darkred;
 }
 
-.secciones{
+/* MAIN */
+/*-------------------------------------------------------*/
+.main-principal {
+  max-width: 1200px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.contenido-principal {
+  border: 2px red solid;
+  margin: 0.5rem;
+}
+.contenido-aside {
   border: 2px green solid;
-  min-height: 50px;
   margin: 0.5rem;
 }
 
-.secciones article{
-  border: 2px purple solid;
-  min-height: 20px;
-  margin: 0.5rem;
+@media (min-width: 768px) {
+  .main-principal {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contenido-aside {
+    flex-basis: calc(33.3% - 2rem);
+  }
+  .contenido-principal {
+    flex-basis: calc(66.7% - 2rem);
+  }
 }
 
-#gif-ppal{
-  width: 100%;
+/* Small devices (600px and down) */
+@media only screen and (max-width: 600px) {
+  .contenido-principal {
+    background:rgb(255, 238, 0)
+  }
+  .contenido-aside
+  {
+    background: rgb(178, 122, 122)
+  }
+}
+/* Small devices (600px and up) */
+@media only screen and (min-width: 600px) {
+  .contenido-principal {
+    background:rgb(89, 255, 0)
+  }
+  .contenido-aside
+  {
+    background: rgb(219, 88, 88)
+  }
+}
+/* Medium devices (768px and up) */
+@media only screen and (min-width: 768px) {
+  .contenido-principal {
+    background:rgb(56, 179, 21)
+  }
+  .contenido-aside
+  {
+    background: rgb(163, 93, 93)
+  }
+}
+/* Large devices (992px and up) */
+@media only screen and (min-width: 992px) {
+  .contenido-principal {
+    background:rgb(31, 146, 235)
+  }
+  .contenido-aside
+  {
+    background: rgb(234, 10, 193)
+  }
+}
+/* Extra large devices (1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .contenido-principal {
+    background:rgb(204, 209, 212)
+  }
+  .contenido-aside
+  {
+    background: rgb(10, 234, 219)
+  }
 }
