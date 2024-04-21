@@ -1,17 +1,8 @@
-.documentalesxx {
-  max-width: 100%;
-  overflow: hidden;
-  float: left;
-}
-.documentalxx {
-  width: 305px;
-  margin: 10px 10px 10px 10px;
-
-  float: left;
-}
-
 .grid-container {
   display: grid;
+}
+.grid-item {
+  float: left;
 }
 
 /* Small devices (600px and down) */
@@ -38,7 +29,7 @@
     background-color: greenyellow;
   }
   .grid-container {
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
   }
 }
 /* Large devices (992px and up) */
@@ -47,7 +38,7 @@
     background-color: blueviolet;
   }
   .grid-container {
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto;
   }
 }
 /* Extra large devices (1200px and up) */
