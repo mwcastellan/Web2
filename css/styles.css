@@ -13,8 +13,8 @@ body {
 /* HEADER */
 header {
   background-color: blueviolet;
-  min-height: 50px;
-  min-width: 400px;
+ /* min-height: 50px;*/
+ /* min-width: 400px;*/
   margin: 0.5rem;
 }
 .header-logo {
