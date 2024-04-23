@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  border: 1px blue solid;
+}
+
+body {
+  background-color: white;
+  font-family: "Marcellus", "Courier New";
+  font-size: 1rem;
+  margin: 0.5rem;
+}
+/* HEADER */
+header {
+  background-color: blueviolet;
+ /* min-height: 50px;*/
+ /* min-width: 400px;*/
+  margin: 0.5rem;
+}
+.header-logo {
+  width: auto;
+  display: inline-block;
+  margin: 0.5rem;
+}
+.header-menubar {
+  left: auto;
+  position: relative;
+  top: auto;
+  width: auto;
+  display: inline-block;
+  margin: 0.5rem;
+  font-size: 1rem;
+}
+.header-menubar ul {
+  list-style: none;
+}
+.header-menubar li {
+  float: left;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0.5rem 0;
+}
+.header-menubar a {
+  text-decoration: none;
+  color: black;
+}
+.header-menubar a:hover {
+  color: red;
+} 
+.a-efecto {
+  display: inline-block;
+  background: white;
+  color: black;
+  padding: 8px 16px;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+}
+.a-efecto:hover {
+  background: #fff;
+  color: darkred;
+  padding: 32px;
+  border: 1px solid darkred;
+}
+
+/* MAIN */
+/*-------------------------------------------------------*/
+.main-principal {
+  max-width: 1200px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+/* Small devices (600px and down) */
+@media only screen and (max-width: 600px) {
+  .row {
+    background:rgb(255, 238, 0)
+  }
+
+}
+/* Small devices (600px and up) */
+@media only screen and (min-width: 600px) {
+  .row {
+    background:rgb(89, 255, 0)
+  }
+
+}
+/* Medium devices (768px and up) */
+@media only screen and (min-width: 768px) {
+  .row {
+    background:rgb(56, 179, 21)
+  }
+}
+/* Large devices (992px and up) */
+@media only screen and (min-width: 992px) {
+  .row {
+    background:rgb(31, 146, 235)
+  }
+}
+/* Extra large devices (1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .row {
+    background:rgb(204, 209, 212)
+  }
+}
+
+.clipped {
+  border: 0;
+  position: absolute;
+  z-index: -1;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  display: block;
+  margin: 0 -1px -1px 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+footer{
+  float: left;
+}
