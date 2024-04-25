@@ -87,10 +87,10 @@ header {
     justify-content: space-between;
   }
   .contenido-aside {
-    flex-basis: calc(33.3% - 2rem);
+    flex-basis: calc(20% - 1rem);
   }
   .contenido-principal {
-    flex-basis: calc(66.7% - 2rem);
+    flex-basis: calc(60% - 1rem);
   }
 }
 
