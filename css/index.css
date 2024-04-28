@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   margin: 0 auto;
-  border: 1px blue solid;
+ /* border: 1px black solid;*/
 }
 
 body {
@@ -72,12 +72,14 @@ header {
 }
 
 .contenido-principal {
-  border: 2px red solid;
+ /* border: 2px red solid;*/
   margin: 0.5rem;
+  padding: 0.5rem;
 }
 .contenido-aside {
-  border: 2px green solid;
+/*  border: 2px green solid;*/
   margin: 0.5rem;
+  padding: 0.5rem;
 }
 
 @media (min-width: 768px) {
