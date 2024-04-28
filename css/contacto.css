@@ -1,0 +1,31 @@
+
+/* Small devices (600px and down) */
+@media only screen and (max-width: 600px) {
+  .formulario1 {
+    background-color: red;
+  }
+}
+/* Small devices (600px and up) */
+@media only screen and (min-width: 600px) {
+  .formulario1 {
+    background-color: bisque;
+  }
+}
+/* Medium devices (768px and up) */
+@media only screen and (min-width: 768px) {
+  .formulario1 {
+    background-color: greenyellow;
+  }
+}
+/* Large devices (992px and up) */
+@media only screen and (min-width: 992px) {
+  .formulario1 {
+    background-color: blueviolet;
+  }
+}
+/* Extra large devices (1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .formulario1 {
+    background-color: aqua;
+  }
+}
