@@ -6,15 +6,13 @@
 
 body {
   background-color: white;
-  font-family: "Marcellus", Arial;
-  font-weight: 400;
-  font-style: normal;
+  font-family: "Marcellus",'Courier New';
   margin: 0.5rem;
 }
 /* HEADER */
 header {
   background-color: blueviolet;
-  margin: 0.5rem auto;
+  margin: 0.5rem;
 }
 .header-logo {
   width: auto;
@@ -152,8 +150,4 @@ header {
   margin: 0 -1px -1px 0;
   overflow: hidden;
   padding: 0;
-}
-
-footer {
-  float: left;
 }
