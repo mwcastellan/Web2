@@ -1,12 +1,17 @@
+.marcellus-regular {
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 * {
   box-sizing: border-box;
   margin: 0 auto;
- /* border: 1px black solid;*/
 }
 
 body {
   background-color: white;
-  font-family: "Marcellus",'Courier New';
+  font-family: "Marcellus", serif;
   margin: 0.5rem;
 }
 /* HEADER */
@@ -65,17 +70,15 @@ header {
 /*-------------------------------------------------------*/
 .main-principal {
   max-width: 1200px;
-  width: 95%;
+  width: 100%;
   margin: 0 auto;
 }
 
 .contenido-principal {
- /* border: 2px red solid;*/
   margin: 0.5rem;
   padding: 0.5rem;
 }
 .contenido-aside {
-/*  border: 2px green solid;*/
   margin: 0.5rem;
   padding: 0.5rem;
 }
@@ -151,3 +154,8 @@ header {
   overflow: hidden;
   padding: 0;
 }
+
+footer {
+   margin: 0.5rem;
+   padding: 0.5rem;
+ }
