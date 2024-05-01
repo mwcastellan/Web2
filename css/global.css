@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  
+}
+
+body {
+  background-color: white;
+  margin: 0.5rem;
+  font-family: "Marcellus", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* HEADER */
+header {
+  background-color: blueviolet;
+  margin: 0.5rem;
+}
+
+.header-logo {
+  width: auto;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.header-menubar {
+  width: auto;
+  display: inline-block;
+  margin: 0 auto;
+  left: auto;
+  position: relative;
+  font-size: 1rem;
+}
+
+.header-menubar ul {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+}
+.header-menubar li {
+  float: left;
+  text-align: center;
+  margin: 0.1rem;
+  
+}
+.header-menubar a {
+  text-decoration: none;
+  color: black;
+}
+.header-menubar a:hover {
+  color: red;
+}
+.a-efecto {
+  display: inline-block;
+  background:rgb(194, 146, 215);
+  color: black;
+  padding: 4px 8px;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+}
+.a-efecto:hover {
+  background: #fff;
+  color: darkred;
+  padding: 16px;
+}
+
+/* MAIN */
+/*-------------------------------------------------------*/
+
+.clipped {
+  border: 0;
+  position: absolute;
+  z-index: -1;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+  clip-path: inset(50%);
+  display: block;
+  margin: 0 -1px -1px 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+footer {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  float: left;
+}
