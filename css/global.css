@@ -49,7 +49,7 @@ header {
   color: black;
 }
 .header-menubar a:hover {
-  color: red;
+  color:white;
 }
 .a-efecto {
   display: inline-block;
@@ -61,8 +61,7 @@ header {
   transition-timing-function: linear;
 }
 .a-efecto:hover {
-  background: #fff;
-  color: darkred;
+  background:black;
   padding: 16px;
 }
 
