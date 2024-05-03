@@ -1,7 +1,6 @@
 * {
   box-sizing: border-box;
   margin: 0 auto;
-  
 }
 
 body {
@@ -33,6 +32,11 @@ header {
   font-size: 1rem;
 }
 
+@media only screen and (max-width: 600px) {
+  .header-menubar {
+    width: 0;
+  }
+}
 .header-menubar ul {
   display: inline-block;
   list-style: none;
@@ -40,20 +44,19 @@ header {
 }
 .header-menubar li {
   float: left;
-  text-align: center;
+  text-align: left;
   margin: 0.1rem;
-  
 }
 .header-menubar a {
   text-decoration: none;
   color: black;
 }
 .header-menubar a:hover {
-  color:white;
+  color: white;
 }
 .a-efecto {
   display: inline-block;
-  background:rgb(194, 146, 215);
+  background: rgb(194, 146, 215);
   color: black;
   padding: 4px 8px;
   transition-property: all;
@@ -61,7 +64,7 @@ header {
   transition-timing-function: linear;
 }
 .a-efecto:hover {
-  background:black;
+  background: black;
   padding: 16px;
 }
 
